@@ -89,4 +89,3 @@ cv2.destroyAllWindows()
 df = pd.DataFrame(events, columns=['Time', 'Quadrant', 'Ball Colour', 'Type'])
 df.to_csv('events.txt', index=False)
 
-print("Processing complete. Check output.avi and events.txt for results.")
